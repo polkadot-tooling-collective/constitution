@@ -32,7 +32,7 @@ PoToC may want to apply for treasury funding in the future; it is therefore clea
 ## Mission List
 
 The *Mission List* contains all projects and services that are maintained by PoToC.
-It is divided into two *Categories* and *Support Tiers* per scope.
+It is divided into two *Categories* and *Support Tiers* per category.
 
 Some obvious cornerstones that must be upheld by all projects are:
 
