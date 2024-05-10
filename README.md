@@ -20,8 +20,8 @@ The Polkadot Tooling Collective will serve Polkadot by recognizing and retaining
 
 The Polkadot Tooling Collective acts in the best interest of Polkadot. It tries to have a positive impact on developer success in the Polkadot Ecosystem and intends to do this by working towards two main goals:
 
-- To maintain developer tools to build Polkadot *itself* (Core Tooling)
 - To maintain developer tools to build *on* Polkadot (dApp Tooling)
+- To maintain developer tools to build Polkadot *itself* (Fellowship Tooling)
 
 Since these definitions are not sufficiently precise, an exhaustive *Mission List* is provided by PoToC. This *Mission List* is the only source of truth about its mission.
 
@@ -32,8 +32,7 @@ PoToC may want to apply for treasury funding in the future; it is therefore clea
 ## Mission List
 
 The *Mission List* contains all projects and services that are maintained by PoToC.
-
-It is divided into two sections, solely to keep the requirements of each section clearly defined; *Core* and *dApp*. It can be updated through an on-chain 2/3-majority rank-weighted vote across all Members.
+It is divided into two *Scopes* and *Support Tiers* per scope.
 
 Some obvious cornerstones that must be upheld by all projects are:
 
@@ -43,13 +42,66 @@ Some obvious cornerstones that must be upheld by all projects are:
 
 The *Mission List* will be defined as part of the initial seeding.
 
-### Core Tooling
+## Scopes
 
-Generally, all tools that are used by The Fellowship to craft, test, and validate updates fall into this category. But only the tools that are predominantly developed for this cause shall be maintained by PoToC. For example, the Rust language is not predominantly developed for Polkadot; hence, it does not fit here.
+The separation of projects into scopes is solely to keep the requirements of each scope clearly defined. Having smaller scopes makes them easier to define and disagree with. They may be changed through an on-chain 2/3-majority rank-weighted vote across all Members.
 
-### dApp Tooling
+### Decentralized-App Developer Tooling
 
-This category contains all tools and libraries that are used to build *on* Polkadot and are predominantly developed for this cause.
+This category contains all tools and libraries that help to build *on* Polkadot and are predominantly developed for this cause. Ideally, it should provide all pieces of software that are needed for a developer to build a dApp on Polkadot.
+
+It specifically aims at developers - not end-users. Things like wallets, explorers, dashboards etc. are out of scope for this very cause.
+
+#### dApp Support Tiers
+
+The support tier of a project defines the urgency and diligence that PoToC takes when maintaining them. They are derived from the perceived importance for Polkadot as a whole.
+
+Defining these tiers in a direct way is very difficult. Hence, we use the approach of estimating the potential negative impact on Polkadot, if we were to misjudge the tier of a project. Note that in the following definitions, terms like "end-user experience" are used without proper definition.  
+It may sound contradictory to talk about end-users, while PoToC does not aim at end-user software. However, it should hopefully give us a way to categorize projects.
+
+##### Tier D1 - Critical
+
+Software in this tier has the potential to disrupt end-user experience for a large number of users, if it were to malfunction.
+
+Remedy: Must have at least one maintainer at all time who can resolve incidents within 24hrs.
+
+##### Tier D2 - Relevant
+
+Software in this tier has the potential to disrupt end-user experience for a small number of users, if it were to malfunction.
+
+Remedy: Must have at least one maintainer who can resolve incidents within 7 days.
+
+##### Tier D3 - Optional
+
+Software in this tier does not have the potential to negatively affect end-user experience for even a small amount of Polkadot's end-users, if it were to malfunction.
+
+Remedy: None. There are probably alternatives or manual work to get around the malfunction.
+
+PoToC still maintains these projects to foster their future adoption. Projects should aim to soar to a higher tier within at most a year of entering `D3`.
+
+### Fellowship Developer Tooling
+
+Generally, all tools that are used by The Fellowship to craft, test, and validate updates fall into this category. But only the tools that are predominantly developed for this cause shall be maintained by PoToC.
+
+The consistence of this scope is mostly circumstantial - through the fact that the Fellowship may use any tools they see fit. Nonetheless, for now it seems like a reasonable approach, since The Fellowship should not have to creep its mission into tooling maintenance. In the future, there may be sub-collectives attached to The Fellowship that assume this work.
+
+#### Fellowship Support Tiers
+
+For Fellowship tooling, only two support tiers exist.
+
+##### Tier F1 - Critical
+
+Software in this tier has the potential to delay the rollout of runtime upgrades or node releases, if it were to malfunction.
+
+Remedy: Must have at least one maintainer at all time who can resolve incidents within 24hrs.
+
+##### Tier F2 - Optional
+
+Software in this tier cannot prevent the rollout or runtime upgrades or node releases, if it were to malfunction.
+
+Remedy: None. There are probably alternatives or manual work to get around the malfunction.
+
+PoToC still maintains these tools to accelerate the work flow of Fellows.
 
 ## Structure
 
@@ -125,4 +177,3 @@ This phase should take from 6 months to 1 year.
 PoToC enacts its salary structure. The creation and granting of bounties starts and attracts new developer talent.
 
 This will demonstrate that creating a System Collective can be done by anyone, and hopefully inspire the wider community to further its decentralization efforts in that direction.
-
