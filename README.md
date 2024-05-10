@@ -32,7 +32,7 @@ PoToC may want to apply for treasury funding in the future; it is therefore clea
 ## Mission List
 
 The *Mission List* contains all projects and services that are maintained by PoToC.
-It is divided into two *Scopes* and *Support Tiers* per scope.
+It is divided into two *Categories* and *Support Tiers* per scope.
 
 Some obvious cornerstones that must be upheld by all projects are:
 
@@ -42,9 +42,9 @@ Some obvious cornerstones that must be upheld by all projects are:
 
 The *Mission List* will be defined as part of the initial seeding.
 
-## Scopes
+## Categories
 
-The separation of projects into scopes is solely to keep the requirements of each scope clearly defined. Having smaller scopes makes them easier to define and disagree with. They may be changed through an on-chain 2/3-majority rank-weighted vote across all Members.
+The separation of projects into categories is solely to keep the requirements of each category clearly defined. Having smaller categories makes them easier to define and disagree with. They may be changed through an on-chain 2/3-majority rank-weighted vote across all Members.
 
 ### Decentralized-App Developer Tooling
 
@@ -83,7 +83,7 @@ PoToC still maintains these projects to foster their future adoption. Projects s
 
 Generally, all tools that are used by The Fellowship to craft, test, and validate updates fall into this category. But only the tools that are predominantly developed for this cause shall be maintained by PoToC.
 
-The consistence of this scope is mostly circumstantial - through the fact that the Fellowship may use any tools they see fit. Nonetheless, for now it seems like a reasonable approach, since The Fellowship should not have to creep its mission into tooling maintenance. In the future, there may be sub-collectives attached to The Fellowship that assume this work.
+The consistence of this category is mostly circumstantial - through the fact that the Fellowship may use any tools they see fit. Nonetheless, for now it seems like a reasonable approach, since The Fellowship should not have to creep its mission into tooling maintenance. In the future, there may be sub-collectives attached to The Fellowship that assume this work.
 
 #### Fellowship Support Tiers
 
