@@ -47,7 +47,7 @@ This category contains all tools and libraries that help to build *on* Polkadot 
 
 It specifically aims at developers - not end-users. Things like wallets, explorers, dashboards etc. are out of scope for this very cause.
 
-We split this category into priorities:
+We split this category into two layers:
 
 #### Fundamentals
 
