@@ -32,7 +32,6 @@ PoToC may want to apply for treasury funding in the future; it is therefore clea
 ## Mission List
 
 The *Mission List* contains all projects and services that are maintained by PoToC.
-It is divided into two *Categories* and *Support Tiers* per category.
 
 Some obvious cornerstones that must be upheld by all projects are:
 
@@ -42,42 +41,22 @@ Some obvious cornerstones that must be upheld by all projects are:
 
 The *Mission List* will be defined as part of the initial seeding.
 
-## Categories
-
-The separation of projects into categories is solely to keep the requirements of each category clearly defined. Having smaller categories makes them easier to define and disagree with. They may be changed through an on-chain 2/3-majority rank-weighted vote across all Members.
-
-### Decentralized-App Developer Tooling
+### dApp Developer Tooling
 
 This category contains all tools and libraries that help to build *on* Polkadot and are predominantly developed for this cause. Ideally, it should provide all pieces of software that are needed for a developer to build a dApp on Polkadot.
 
 It specifically aims at developers - not end-users. Things like wallets, explorers, dashboards etc. are out of scope for this very cause.
 
-#### dApp Support Tiers
+We split this category into priorities:
 
-The support tier of a project defines the urgency and diligence that PoToC takes when maintaining them. They are derived from the perceived importance for Polkadot as a whole.
+#### Fundamentals
 
-Defining these tiers in a direct way is very difficult. Hence, we use the approach of estimating the potential negative impact on Polkadot, if we were to misjudge the tier of a project. Note that in the following definitions, terms like "end-user experience" are used without proper definition.  
-It may sound contradictory to talk about end-users, while PoToC does not aim at end-user software. However, it should hopefully give us a way to categorize projects.
+Software that lays the basis for a dApp project. They connection to the Polkadot network and offer rich possibilities to interact with it.  
+Some examples would be: sending transactions, subscribing to block headers or decoding and storage. 
 
-##### Tier D1 - Critical
+#### Extensions
 
-Software in this tier has the potential to disrupt end-user experience for a large number of users, if it were to malfunction.
-
-Remedy: Must have at least one maintainer at all time who can resolve incidents within 24hrs.
-
-##### Tier D2 - Relevant
-
-Software in this tier has the potential to disrupt end-user experience for a small number of users, if it were to malfunction.
-
-Remedy: Must have at least one maintainer who can resolve incidents within 7 days.
-
-##### Tier D3 - Optional
-
-Software in this tier does not have the potential to negatively affect end-user experience for even a small amount of Polkadot's end-users, if it were to malfunction.
-
-Remedy: None. There are probably alternatives or manual work to get around the malfunction.
-
-PoToC still maintains these projects to foster their future adoption. Projects should aim to soar to a higher tier within at most a year of entering `D3`.
+Software in this tier depends on `Fundamentals` and extends their functionality. They may simplify and/or abstract certain functionality or tailor it to suite specific corner needs.
 
 ### Fellowship Developer Tooling
 
