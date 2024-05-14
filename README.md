@@ -58,30 +58,6 @@ Some examples would be: sending transactions, subscribing to block headers or de
 
 Software in this tier depends on `Fundamentals` and extends their functionality. They may simplify and/or abstract certain functionality or tailor it to suite specific corner needs.
 
-### Fellowship Developer Tooling
-
-Generally, all tools that are used by The Fellowship to craft, test, and validate updates fall into this category. But only the tools that are predominantly developed for this cause shall be maintained by PoToC.
-
-The consistence of this category is mostly circumstantial - through the fact that the Fellowship may use any tools they see fit. Nonetheless, for now it seems like a reasonable approach, since The Fellowship should not have to creep its mission into tooling maintenance. In the future, there may be sub-collectives attached to The Fellowship that assume this work.
-
-#### Fellowship Support Tiers
-
-For Fellowship tooling, only two support tiers exist.
-
-##### Tier F1 - Critical
-
-Software in this tier has the potential to delay the rollout of runtime upgrades or node releases, if it were to malfunction.
-
-Remedy: Must have at least one maintainer at all time who can resolve incidents within 24hrs.
-
-##### Tier F2 - Optional
-
-Software in this tier cannot prevent the rollout or runtime upgrades or node releases, if it were to malfunction.
-
-Remedy: None. There are probably alternatives or manual work to get around the malfunction.
-
-PoToC still maintains these tools to accelerate the work flow of Fellows.
-
 ## Structure
 
 The initial structure shall be as minimalistic as possible, to limit maintenance and social drama. This has the downside of being less resilient against foreign takeovers, but in the beginning, I think it is fine to rather focus on social cohesion.
