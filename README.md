@@ -58,6 +58,10 @@ Some examples would be: sending transactions, subscribing to block headers or de
 
 Software in this tier depends on `Fundamentals` and extends their functionality. They may simplify and/or abstract certain functionality or tailor it to suite specific corner needs.
 
+### General Polkadot Tooling
+
+Projects that improve velocity and simplicity to develop on Polkadot. This category is not restricted to dApps, but can also include Parachains, node software or similar.
+
 ## Structure
 
 The initial structure shall be as minimalistic as possible, to limit maintenance and social drama. This has the downside of being less resilient against foreign takeovers, but in the beginning, I think it is fine to rather focus on social cohesion.
