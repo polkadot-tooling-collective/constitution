@@ -51,7 +51,7 @@ We split this category into two layers:
 
 #### Fundamentals
 
-Software that lays the basis for a dApp project. They connection to the Polkadot network and offer rich possibilities to interact with it.  
+Software that lays the basis for a dApp project. They connect to the Polkadot network and offer rich possibilities to interact with it.  
 Some examples would be: sending transactions, subscribing to block headers or decoding and storage. 
 
 #### Extensions
