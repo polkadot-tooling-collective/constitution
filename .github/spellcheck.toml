@@ -1,5 +1,0 @@
-[hunspell]
-lang = "en_US"
-search_dirs = ["."]
-skip_os_lookups = true
-use_builtin = true
