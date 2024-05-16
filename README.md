@@ -20,8 +20,8 @@ The Polkadot Tooling Collective will serve Polkadot by recognizing and retaining
 
 The Polkadot Tooling Collective acts in the best interest of Polkadot. It tries to have a positive impact on developer success in the Polkadot Ecosystem and intends to do this by working towards two main goals:
 
-- To maintain developer tools to build Polkadot *itself* (Core Tooling)
-- To maintain developer tools to build *on* Polkadot (dApp Tooling)
+- To maintain developer tools to build dApps on Polkadot (dApp Tooling)
+- To maintain developer tools to build on Polkadot in general (General Tooling)
 
 Since these definitions are not sufficiently precise, an exhaustive *Mission List* is provided by PoToC. This *Mission List* is the only source of truth about its mission.
 
@@ -33,7 +33,7 @@ PoToC may want to apply for treasury funding in the future; it is therefore clea
 
 The *Mission List* contains all projects and services that are maintained by PoToC.
 
-It is divided into two sections, solely to keep the requirements of each section clearly defined; *Core* and *dApp*. It can be updated through an on-chain 2/3-majority rank-weighted vote across all Members.
+It is divided into two sections, solely to keep the requirements of each section clearly defined; *dApp* and *General*. It can be updated through an on-chain 2/3-majority rank-weighted vote across all Members.
 
 Some obvious cornerstones that must be upheld by all projects are:
 
@@ -43,13 +43,26 @@ Some obvious cornerstones that must be upheld by all projects are:
 
 The *Mission List* will be defined as part of the initial seeding.
 
-### Core Tooling
+### dApp Developer Tooling
 
-Generally, all tools that are used by The Fellowship to craft, test, and validate updates fall into this category. But only the tools that are predominantly developed for this cause shall be maintained by PoToC. For example, the Rust language is not predominantly developed for Polkadot; hence, it does not fit here.
+This category contains all tools and libraries that help to build *on* Polkadot and are predominantly developed for this cause. Ideally, it should provide all pieces of software that are needed for a developer to build a dApp on Polkadot.
 
-### dApp Tooling
+It specifically aims at developers - not end-users. Things like wallets, explorers, dashboards etc. are out of scope for this very cause.
 
-This category contains all tools and libraries that are used to build *on* Polkadot and are predominantly developed for this cause.
+We split this category into two layers:
+
+#### Fundamentals
+
+Software that lays the basis for a dApp project. They connect to the Polkadot network and offer rich possibilities to interact with it.  
+Some examples would be: sending transactions, subscribing to block headers or decoding and storage. 
+
+#### Extensions
+
+Software in this tier depends on `Fundamentals` and extends their functionality. They may simplify and/or abstract certain functionality or tailor it to suite specific corner needs.
+
+### General Polkadot Tooling
+
+Projects that improve velocity and simplicity to develop on Polkadot. This category is not restricted to dApps, but can also include Parachains, node software or similar.
 
 ## Structure
 
@@ -125,4 +138,3 @@ This phase should take from 6 months to 1 year.
 PoToC enacts its salary structure. The creation and granting of bounties starts and attracts new developer talent.
 
 This will demonstrate that creating a System Collective can be done by anyone, and hopefully inspire the wider community to further its decentralization efforts in that direction.
-
