@@ -1,10 +1,10 @@
-Polkadot
-PoToC
-runtime
 dApp
 dApps
-PoToC's
 exfiltrate
 FOSS
 minimalistic
 parachains
+Polkadot
+PoToC
+PoToC's
+runtime
