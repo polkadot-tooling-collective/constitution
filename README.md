@@ -1,6 +1,6 @@
 # Polkadot Tooling Collective
 
-This document proposes to the Polkadot tokenholders the inception of a new System Collective: The Polkadot Tooling Collective (PoToC).
+This document proposes to the Polkadot token holders the inception of a new System Collective: The Polkadot Tooling Collective (PoToC).
 
 After a formation period to establish members and display effectiveness, the collective will request funds from the main treasury to support a salary structure and sub-treasury. These ideas are laid out in the `Phases` section.
 
@@ -62,7 +62,7 @@ Software in this tier depends on `Fundamentals` and extends their functionality.
 
 ### General Polkadot Tooling
 
-Projects that improve velocity and simplicity to develop on Polkadot. This category is not restricted to dApps, but can also include Parachains, node software or similar.
+Projects that improve velocity and simplicity to develop on Polkadot. This category is not restricted to dApps, but can also include parachains, node software or similar.
 
 ## Structure
 
@@ -77,14 +77,14 @@ Developers who want to join can be inducted by any Member into this rank. A vote
 They are expected to be a maintainer for one of the tools on the mission list.
 
 - Voting weight: 0
-- Salary mult: task-based bounties
+- Salary multiplier: task-based bounties
 
 ### Rank 1 - Member
 
 Members are expected to keep up the maintenance of at least one tool from the mission list. This includes extending them and creating new tools that are needed by the Polkadot developer community.
 
 - Voting weight: 1
-- Salary mult: 0.1 + task-based bounties
+- Salary multiplier: 0.1 + task-based bounties
 
 ### Further Ranks
 
@@ -104,9 +104,9 @@ The exact constants for the size of the bounties and baseline salary will be pro
 
 ## Initial Members
 
-There shall be a seeding repo that allows anyone to apply to a rank. Applications should include a list of tools and contributions that show their past commitment to Polkadot tooling development. The applicant must justify why they are a good fit to join PoToC.
+There shall be a seeding repository that allows anyone to apply to a rank. Applications should include a list of tools and contributions that show their past commitment to Polkadot tooling development. The applicant must justify why they are a good fit to join PoToC.
 
-Eventually, there needs to be a social consensus on the initial set of members. This set would then be proposed to the tokenholders, either as part of the PoToC proposal itself or as a separate referendum.
+Eventually, there needs to be a social consensus on the initial set of members. This set would then be proposed to the token holders, either as part of the PoToC proposal itself or as a separate referendum.
 
 ## Future
 
@@ -116,9 +116,9 @@ A rough mid-term plan could look like this:
 
 ### Phase I - Setup
 
-This phase is for setting everything up and getting it enacted on-cain. It should take at most 6 months.
+This phase is for setting everything up and getting it enacted on-chain. It should take at most 6 months.
 
-- 1.1 Contacting all stakeholders: Tokenholders, Seeding members, and The Fellowship.
+- 1.1 Contacting all stakeholders: Token holders, Seeding members, and The Fellowship.
 - 1.2 Pitching the proposal to the community and incorporating feedback. 
 - 2.1 Crafting a preliminary implementation to ensure that all important parameters are mentioned in the proposal.
 - 2.2 Binding governance vote via Wish-For-Change track. This is treated as the final signal on whether to pursue it or not.
