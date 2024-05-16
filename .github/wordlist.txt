@@ -6,3 +6,5 @@ dApps
 PoToC's
 exfiltrate
 FOSS
+minimalistic
+parachains

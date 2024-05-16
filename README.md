@@ -62,7 +62,7 @@ Software in this tier depends on `Fundamentals` and extends their functionality.
 
 ### General Polkadot Tooling
 
-Projects that improve velocity and simplicity to develop on Polkadot. This category is not restricted to dApps, but can also include Parachains, node software or similar.
+Projects that improve velocity and simplicity to develop on Polkadot. This category is not restricted to dApps, but can also include parachains, node software or similar.
 
 ## Structure
 
