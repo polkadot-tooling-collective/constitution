@@ -20,8 +20,8 @@ The Polkadot Tooling Collective will serve Polkadot by recognizing and retaining
 
 The Polkadot Tooling Collective acts in the best interest of Polkadot. It tries to have a positive impact on developer success in the Polkadot Ecosystem and intends to do this by working towards two main goals:
 
-- To maintain developer tools to build *on* Polkadot (dApp Tooling)
-- To maintain developer tools to build Polkadot *itself* (Fellowship Tooling)
+- To maintain developer tools to build dApps on Polkadot (dApp Tooling)
+- To maintain developer tools to build on Polkadot in general (General Tooling)
 
 Since these definitions are not sufficiently precise, an exhaustive *Mission List* is provided by PoToC. This *Mission List* is the only source of truth about its mission.
 
@@ -32,6 +32,8 @@ PoToC may want to apply for treasury funding in the future; it is therefore clea
 ## Mission List
 
 The *Mission List* contains all projects and services that are maintained by PoToC.
+
+It is divided into two sections, solely to keep the requirements of each section clearly defined; *dApp* and *General*. It can be updated through an on-chain 2/3-majority rank-weighted vote across all Members.
 
 Some obvious cornerstones that must be upheld by all projects are:
 
