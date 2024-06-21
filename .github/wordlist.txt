@@ -1,6 +1,7 @@
 dApp
 dApps
 exfiltrate
+CLIs
 FOSS
 minimalistic
 parachains
